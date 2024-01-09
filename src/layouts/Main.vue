@@ -1,10 +1,11 @@
 <template >
-    <div class="main">
+    <v-app>
+        <Sidebar />
         <router-view />
-    </div>
+    </v-app>
 </template>
 <script setup lang="ts">
-import { RouterView } from 'vue-router';
+import Sidebar from '@/components/shared/Sidebar.vue';
 
 </script>
 <style>
