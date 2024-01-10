@@ -6,7 +6,6 @@
 <script setup lang="ts">
 import MainBanners from '@/components/shared/MainBanners.vue';
 
-
 </script>
 <style>
 .home {
