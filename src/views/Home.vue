@@ -1,14 +1,16 @@
 <template>
     <div class="home">
-        Home
+        <MainBanners />
     </div>
 </template>
 <script setup lang="ts">
+import MainBanners from '@/components/shared/MainBanners.vue';
+
 
 </script>
 <style>
 .home {
+    width: 100%;
     font-size: 30px;
-    padding-left: 270px 
 }
 </style>
