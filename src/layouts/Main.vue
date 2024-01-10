@@ -1,19 +1,19 @@
 <template >
     <v-app>
         <Sidebar />
-        <router-view />
+        <Topbar />
+        <v-main class="main">
+            <router-view />
+        </v-main>
     </v-app>
 </template>
 <script setup lang="ts">
 import Sidebar from '@/components/shared/Sidebar.vue';
+import Topbar from '@/components/shared/Topbar.vue';
 
 </script>
 <style>
 .main {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center
+    padding-top: 80px;
 }
 </style>

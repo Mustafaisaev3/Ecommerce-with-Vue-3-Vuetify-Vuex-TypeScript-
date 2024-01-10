@@ -4,7 +4,7 @@
         app
         class="leftSidebar"
         expand-on-hover 
-        width="270"
+        width="320"
         :v-model="drawer"
     >
       <v-sheet class="pa-6">
