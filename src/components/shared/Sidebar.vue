@@ -85,7 +85,7 @@ const CategoryList: SidebarItemPropsType[] = [
 .category-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .leftSidebar {

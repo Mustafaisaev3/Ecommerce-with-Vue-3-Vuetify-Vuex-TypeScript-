@@ -33,7 +33,7 @@
 </template>
 <script setup lang="ts">
 </script>
-<style lang="scss">
+<style scoped lang="scss">
     .main-banners {
         max-width: 100%;
     }
