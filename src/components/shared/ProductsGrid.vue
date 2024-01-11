@@ -1,19 +1,26 @@
 <template>
     <v-container class="products-grid-container">
         <Heading 
-          :title="'Food Cupboard'" 
-          :subtitle="'A virtual assistant collects the products from your list'" 
+          :title="title" 
+          :subtitle="subtitle" 
         />
         <div class="products-grid">
-          <ProductCard v-for="product in Products" :key="product.id" :product="product"/>
+          <ProductCard v-for="product in products" :key="product.id" :product="product"/>
         </div>
     </v-container>
 </template>
 
 <script setup lang="ts">
+import { PropType } from 'vue';
 import ProductCard from '../card/ProductCard.vue';
 import Heading from './Heading.vue';
-import { Products } from '@/data/products'
+import { ProductType } from '@/data/products'
+
+const { title, subtitle, products} = defineProps({
+  title: String,
+  subtitle: String,
+  products: Array as PropType<Array<ProductType>>
+})
 
 </script>
 
