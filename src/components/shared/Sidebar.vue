@@ -2,7 +2,7 @@
     <v-navigation-drawer
         left
         app
-        class="leftSidebar"
+        class="sidebar"
         expand-on-hover 
         width="320"
         :v-model="drawer"
@@ -82,6 +82,9 @@ const CategoryList: SidebarItemPropsType[] = [
 </script>
 
 <style scoped>
+.sidebar {
+    border-right: 1px solid rgba(0,0,0,0.12);
+}
 .category-list {
     display: flex;
     flex-direction: column;

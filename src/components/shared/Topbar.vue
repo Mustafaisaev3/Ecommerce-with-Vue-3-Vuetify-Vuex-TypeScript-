@@ -19,14 +19,7 @@
                         <v-icon icon="mdi-account-outline" v-bind="props"></v-icon>
                     </template>
     
-                    <v-card
-                        class="mx-auto card"
-                        width="256"
-                    >
-                        <v-btn icon="mdi-cart-outline"></v-btn>
-                        <v-btn icon="mdi-magnify"></v-btn>
-                        <v-btn icon="mdi-dots-vertical"></v-btn>
-                    </v-card>
+                    <UserCard />
                 </v-menu>
             </div>
         </template>
@@ -35,6 +28,7 @@
 
 <script setup lang="ts">
 import Search from './Search.vue';
+import UserCard from '@/components/card/UserCard.vue';
 import CartCard from '@/components/card/CartCard.vue'
 
 </script>
