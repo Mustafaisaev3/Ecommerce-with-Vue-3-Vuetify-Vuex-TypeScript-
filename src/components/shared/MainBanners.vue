@@ -40,7 +40,7 @@
 
     .banner {
         width: 100%;
-        height: 250px;
+        height: 280px;
         border-radius: 5px;
         overflow: hidden;
         position: relative;

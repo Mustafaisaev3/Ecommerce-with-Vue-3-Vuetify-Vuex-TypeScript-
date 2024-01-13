@@ -7,14 +7,14 @@
         <template v-slot:append>
             <div class="topbar-right">
                 <v-icon icon="mdi-heart-outline"></v-icon>
-                <v-menu open-on-hover transition="slide-y-transition">
+                <v-menu open-on-hover open-on-click transition="slide-y-transition">
                     <template v-slot:activator="{ props }">
                         <v-icon icon="mdi-cart-outline" v-bind="props"></v-icon>
                     </template>
     
                     <CartCard />
                 </v-menu>
-                <v-menu open-on-hover transition="slide-y-transition">
+                <v-menu open-on-hover open-on-click transition="slide-y-transition">
                     <template v-slot:activator="{ props }">
                         <v-icon icon="mdi-account-outline" v-bind="props"></v-icon>
                     </template>
