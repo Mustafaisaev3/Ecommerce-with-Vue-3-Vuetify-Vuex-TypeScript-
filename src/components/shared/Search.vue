@@ -48,4 +48,10 @@
 .searchbar-icon {
     padding: 0px;
 }
+
+@media (max-width: 768px) {
+    .searchbar {
+        display: none;
+    }
+}
 </style>
