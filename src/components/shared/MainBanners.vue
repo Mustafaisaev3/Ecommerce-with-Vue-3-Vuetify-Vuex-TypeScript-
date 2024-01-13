@@ -79,7 +79,7 @@
         &__text {
             width: 60%;
             color: #a9bad8;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 500;
         }
 
